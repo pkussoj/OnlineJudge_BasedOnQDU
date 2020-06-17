@@ -1,0 +1,284 @@
+[2020-06-14 17:10:42,410] [PID 121] [MainThread] [dramatiq.MainProcess] [INFO] Dramatiq '1.3.0' is booting up.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.middleware.time_limit.TimeLimit:70]  - Setting up timers...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:195]  - Adding consumer for queue 'default'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:199]  - Adding consumer for delay queue 'default.DQ'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default.DQ):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [INFO] - [dramatiq.WorkerProcess(0):277]  - Worker process is ready for action.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.middleware.time_limit.TimeLimit:70]  - Setting up timers...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:195]  - Adding consumer for queue 'default'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:199]  - Adding consumer for delay queue 'default.DQ'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default.DQ):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [INFO] - [dramatiq.WorkerProcess(2):277]  - Worker process is ready for action.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.middleware.time_limit.TimeLimit:70]  - Setting up timers...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:195]  - Adding consumer for queue 'default'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:199]  - Adding consumer for delay queue 'default.DQ'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default.DQ):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [INFO] - [dramatiq.WorkerProcess(3):277]  - Worker process is ready for action.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.middleware.time_limit.TimeLimit:70]  - Setting up timers...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:195]  - Adding consumer for queue 'default'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker._WorkerMiddleware:199]  - Adding consumer for delay queue 'default.DQ'.
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default.DQ):218]  - Running consumer thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [DEBUG] - [dramatiq.worker.WorkerThread:365]  - Running worker thread...
+[2020-06-14 17:10:42] - [INFO] - [dramatiq.WorkerProcess(1):277]  - Worker process is ready for action.
+[2020-06-14 17:29:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'fd1009e5-d2a2-48ed-8b0a-f528e8ecda35' onto work queue.
+[2020-06-14 17:29:31] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b6845f80ce97131a1bd2101355ce2882', 1) with id 'fd1009e5-d2a2-48ed-8b0a-f528e8ecda35'.
+[2020-06-14 17:29:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'fd1009e5-d2a2-48ed-8b0a-f528e8ecda35'.
+[2020-06-14 17:32:20] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '3b33d1c1-3185-4e9d-adcf-ea21ad56cd5f' onto work queue.
+[2020-06-14 17:32:20] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b6845f80ce97131a1bd2101355ce2882', 1) with id '3b33d1c1-3185-4e9d-adcf-ea21ad56cd5f'.
+[2020-06-14 17:32:20] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '3b33d1c1-3185-4e9d-adcf-ea21ad56cd5f'.
+[2020-06-14 17:36:40] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '45d9e6de-3764-474c-9ee4-2a37112b07cd' onto work queue.
+[2020-06-14 17:36:40] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b6845f80ce97131a1bd2101355ce2882', 1) with id '45d9e6de-3764-474c-9ee4-2a37112b07cd'.
+[2020-06-14 17:36:40] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '45d9e6de-3764-474c-9ee4-2a37112b07cd'.
+[2020-06-14 17:38:06] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '309256a4-095a-40b3-b566-28d9d38dd57e' onto work queue.
+[2020-06-14 17:38:06] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('d40f7cb5a4c8703758e83f859b34241a', 1) with id '309256a4-095a-40b3-b566-28d9d38dd57e'.
+[2020-06-14 17:38:06] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '309256a4-095a-40b3-b566-28d9d38dd57e'.
+[2020-06-15 01:39:15] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '10f83db8-082b-4a0b-b23a-9332aedd6af5' onto work queue.
+[2020-06-15 01:39:15] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message send_email_async(from_name='oj', to_email='vcfcxdr@163.com', to_name='seanxiao', subject='Reset your password', content='<div>\n    <table cellpadding="0" align="center"\n           style="overflow:hidden;background:#fff;margin:0 auto;text-align:left;position:relative;font-size:14px; font-family:\'lucida Grande\',Verdana;line-height:1.5;box-shadow:0 0 3px #ccc;border:1px solid #ccc;border-radius:5px;border-collapse:collapse;">\n        <tbody>\n        <tr>\n            <th valign="middle"\n                style="height:38px;color:#fff; font-size:14px;line-height:38px; font-weight:bold;text-align:left;padding:10px 24px 6px; border-bottom:1px solid #467ec3;background:#518bcb;border-radius:5px 5px 0 0;">\n            Online Judge</th>\n        </tr>\n        <tr>\n            <td>\n                <div style="padding:20px 35px 40px;">\n                    <h2 style="font-weight:bold;margin-bottom:5px;font-size:14px;">Hello, seanxiao:</h2>\n                    <p style="margin-top:20px">\n                    Please click <a href="http://127.0.0.1/reset-password/ebbdf334e897ca80997f8531b3b061a5">http://127.0.0.1/reset-password/ebbdf334e897ca80997f8531b3b061a5</a> to reset your password in 20 minutes.\n                    </p>\n                    <p style="margin-top:20px">\n                    To protect your account, please do not use simple passwords.\n                    </p>\n                    <p style="margin-top:20px">\n                    If you still have any questions, please contract system administrator.\n                    </p>\n                    <p style="margin-left:2em;"></p>\n                    <p style="text-indent:0;text-align:right;">Online Judge</p>\n                </div>\n            </td>\n        </tr>\n\n        </tbody>\n    </table>\n</div>') with id '10f83db8-082b-4a0b-b23a-9332aedd6af5'.
+[2020-06-15 01:39:15] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '10f83db8-082b-4a0b-b23a-9332aedd6af5'.
+[2020-06-15 01:39:19] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '9c398be5-53f0-4977-9c70-d95809466372' onto work queue.
+[2020-06-15 01:39:19] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('8e3a722e0557d27cdf488a0a796c87ad', 1) with id '9c398be5-53f0-4977-9c70-d95809466372'.
+[2020-06-15 01:39:19] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '9c398be5-53f0-4977-9c70-d95809466372'.
+[2020-06-15 02:01:43] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'edf49ec0-1a87-47c7-afee-fd2ea3ce5ded' onto work queue.
+[2020-06-15 02:01:43] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('9aae557a1c084c46c09880f74b34efdc', 1) with id 'edf49ec0-1a87-47c7-afee-fd2ea3ce5ded'.
+[2020-06-15 02:01:43] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'edf49ec0-1a87-47c7-afee-fd2ea3ce5ded'.
+[2020-06-15 02:06:47] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'ffd299c4-4ab0-41bf-b463-bd48248b0e6c' onto work queue.
+[2020-06-15 02:06:47] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('73a3826b90aafb26846d406374b19473', 1) with id 'ffd299c4-4ab0-41bf-b463-bd48248b0e6c'.
+[2020-06-15 02:06:47] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'ffd299c4-4ab0-41bf-b463-bd48248b0e6c'.
+[2020-06-15 02:18:12] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '970fc384-5353-4e5d-a9ab-e40eca464516' onto work queue.
+[2020-06-15 02:18:12] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('558d90e816a3cd13fb61410557deb400', 1) with id '970fc384-5353-4e5d-a9ab-e40eca464516'.
+[2020-06-15 02:18:12] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '970fc384-5353-4e5d-a9ab-e40eca464516'.
+[2020-06-15 02:20:47] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '3f6f9891-23f1-450e-a93e-7e1a930b49f8' onto work queue.
+[2020-06-15 02:20:47] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('31598e0c0516f5398dae8872835134cb', 1) with id '3f6f9891-23f1-450e-a93e-7e1a930b49f8'.
+[2020-06-15 02:20:47] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '3f6f9891-23f1-450e-a93e-7e1a930b49f8'.
+[2020-06-15 02:20:52] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '3dcfc1f6-c395-4fd0-ab53-200b4881560d' onto work queue.
+[2020-06-15 02:20:52] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b1263f6379be1c9648596b369c0a5753', 1) with id '3dcfc1f6-c395-4fd0-ab53-200b4881560d'.
+[2020-06-15 02:20:53] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '3dcfc1f6-c395-4fd0-ab53-200b4881560d'.
+[2020-06-15 02:20:55] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'cf5f122c-d7ab-427f-a342-1ded7afabc0f' onto work queue.
+[2020-06-15 02:20:55] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('fc4ec9b8a0f1adaecb6adce18d2011e5', 1) with id 'cf5f122c-d7ab-427f-a342-1ded7afabc0f'.
+[2020-06-15 02:20:55] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'cf5f122c-d7ab-427f-a342-1ded7afabc0f'.
+[2020-06-15 03:26:29] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'a319f798-1c1b-4651-8646-d5b0293042a5' onto work queue.
+[2020-06-15 03:26:29] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b36e8fda4dff01465b4780f21b050e79', 1) with id 'a319f798-1c1b-4651-8646-d5b0293042a5'.
+[2020-06-15 03:26:29] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'a319f798-1c1b-4651-8646-d5b0293042a5'.
+[2020-06-15 03:28:04] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'ff07de2f-28e4-4f8e-8cfa-f5b256b0ff76' onto work queue.
+[2020-06-15 03:28:04] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('ecc86f26cf249cd2a3aeeb15a0b9dded', 1) with id 'ff07de2f-28e4-4f8e-8cfa-f5b256b0ff76'.
+[2020-06-15 03:28:04] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'ff07de2f-28e4-4f8e-8cfa-f5b256b0ff76'.
+[2020-06-15 05:58:44] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'f80249b6-4b03-448f-9bc7-826ba0fca771' onto work queue.
+[2020-06-15 05:58:44] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('dafffbb2f65be8b7ea9ea7620c32d6c0', 2) with id 'f80249b6-4b03-448f-9bc7-826ba0fca771'.
+[2020-06-15 05:58:45] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'f80249b6-4b03-448f-9bc7-826ba0fca771'.
+[2020-06-15 05:59:05] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '85002de7-0811-4073-9a9c-70087f6b9c54' onto work queue.
+[2020-06-15 05:59:05] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('f3853b431e38724ddbb173dc0d0128e8', 2) with id '85002de7-0811-4073-9a9c-70087f6b9c54'.
+[2020-06-15 05:59:06] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '85002de7-0811-4073-9a9c-70087f6b9c54'.
+[2020-06-15 06:00:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '679ef855-84aa-466a-85c0-1f648ed7c01d' onto work queue.
+[2020-06-15 06:00:31] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('2b437103cdb642536dea8cecb1df02a4', 2) with id '679ef855-84aa-466a-85c0-1f648ed7c01d'.
+[2020-06-15 06:00:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '679ef855-84aa-466a-85c0-1f648ed7c01d'.
+[2020-06-15 06:11:09] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '623e7046-6754-414d-bba3-9379d1d8af23' onto work queue.
+[2020-06-15 06:11:09] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('5cccab66e4df09e0325dd4242a2a2618', 2) with id '623e7046-6754-414d-bba3-9379d1d8af23'.
+[2020-06-15 06:11:09] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '623e7046-6754-414d-bba3-9379d1d8af23'.
+[2020-06-15 15:04:27] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '178e8497-e766-42c1-8035-12d5e228c3ad' onto work queue.
+[2020-06-15 15:04:27] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('fa59214392203ddd29ca20c88a9d7a51', 2) with id '178e8497-e766-42c1-8035-12d5e228c3ad'.
+[2020-06-15 15:04:27] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '178e8497-e766-42c1-8035-12d5e228c3ad'.
+[2020-06-15 15:05:29] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '0a665cab-2a1f-474e-8bdd-f26a0ca17871' onto work queue.
+[2020-06-15 15:05:29] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('bc2507256a3ca730af5f050af0ab92ec', 2) with id '0a665cab-2a1f-474e-8bdd-f26a0ca17871'.
+[2020-06-15 15:05:29] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '0a665cab-2a1f-474e-8bdd-f26a0ca17871'.
+[2020-06-15 15:06:16] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'bbb3fa39-a920-4f73-9bd2-9c1212870d78' onto work queue.
+[2020-06-15 15:06:16] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('9b21ede96accba6b09c706c2a9ab3c6d', 2) with id 'bbb3fa39-a920-4f73-9bd2-9c1212870d78'.
+[2020-06-15 15:06:17] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'bbb3fa39-a920-4f73-9bd2-9c1212870d78'.
+[2020-06-15 15:09:21] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '9d425063-f165-4b27-8a8f-fde1038233f8' onto work queue.
+[2020-06-15 15:09:21] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('bbcc84d663423dd0d3778df35f924a76', 2) with id '9d425063-f165-4b27-8a8f-fde1038233f8'.
+[2020-06-15 15:09:21] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '9d425063-f165-4b27-8a8f-fde1038233f8'.
+[2020-06-16 02:59:32] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'd0acc46b-a9bd-4525-bba1-342717207c5f' onto work queue.
+[2020-06-16 02:59:32] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('6c93db7e2a7af1afbf9e57102e9b2171', 1) with id 'd0acc46b-a9bd-4525-bba1-342717207c5f'.
+[2020-06-16 02:59:32] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'd0acc46b-a9bd-4525-bba1-342717207c5f'.
+[2020-06-16 03:00:15] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '80dcb74b-1688-49d5-9df0-705b8d9ec2a8' onto work queue.
+[2020-06-16 03:00:15] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('a2b3f21cf551d8834b10c65d94c329bb', 1) with id '80dcb74b-1688-49d5-9df0-705b8d9ec2a8'.
+[2020-06-16 03:00:15] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '80dcb74b-1688-49d5-9df0-705b8d9ec2a8'.
+[2020-06-16 11:43:37] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '88427dc3-5e63-49ca-9a78-7c06a63e4666' onto work queue.
+[2020-06-16 11:43:37] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('6f59184003d901b78c72c55bb6e5a385', 1) with id '88427dc3-5e63-49ca-9a78-7c06a63e4666'.
+[2020-06-16 11:43:37] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '88427dc3-5e63-49ca-9a78-7c06a63e4666'.
+[2020-06-16 11:44:26] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '16523818-14cd-4789-91b9-01c85c3f5586' onto work queue.
+[2020-06-16 11:44:26] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('29c4a0032aa92ea1d7961069c955ad6b', 1) with id '16523818-14cd-4789-91b9-01c85c3f5586'.
+[2020-06-16 11:44:27] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '16523818-14cd-4789-91b9-01c85c3f5586'.
+[2020-06-16 11:45:00] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '3b53b15d-0f25-4827-9a6d-c34fa45865d1' onto work queue.
+[2020-06-16 11:45:00] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('c2bc14b900892b3f957f749716753ec1', 1) with id '3b53b15d-0f25-4827-9a6d-c34fa45865d1'.
+[2020-06-16 11:45:01] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '3b53b15d-0f25-4827-9a6d-c34fa45865d1'.
+[2020-06-16 11:47:25] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'e6635c18-62bd-482e-8738-5a31e61248b5' onto work queue.
+[2020-06-16 11:47:25] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('2ac86c5e5c7ba8809250225c356d01e7', 1) with id 'e6635c18-62bd-482e-8738-5a31e61248b5'.
+[2020-06-16 11:47:26] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'e6635c18-62bd-482e-8738-5a31e61248b5'.
+[2020-06-16 11:47:38] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'b0eeb2c5-9517-4910-81e3-967c7aaf902b' onto work queue.
+[2020-06-16 11:47:38] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('c220b034b1090ce4129c2bf104a2d664', 1) with id 'b0eeb2c5-9517-4910-81e3-967c7aaf902b'.
+[2020-06-16 11:47:38] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'b0eeb2c5-9517-4910-81e3-967c7aaf902b'.
+[2020-06-16 11:47:51] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '2d1efa47-b70e-4d96-b809-050945d8055d' onto work queue.
+[2020-06-16 11:47:51] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('6cf79a7abdf83c043cc2af8992e636c9', 1) with id '2d1efa47-b70e-4d96-b809-050945d8055d'.
+[2020-06-16 11:47:51] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '2d1efa47-b70e-4d96-b809-050945d8055d'.
+[2020-06-16 11:47:57] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'b54aad27-24b6-41d6-aa36-7306456b9180' onto work queue.
+[2020-06-16 11:47:57] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('bf99e30296507437765fea99eaf1df2e', 1) with id 'b54aad27-24b6-41d6-aa36-7306456b9180'.
+[2020-06-16 11:47:57] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'b54aad27-24b6-41d6-aa36-7306456b9180'.
+[2020-06-16 12:01:36] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '9db84d7a-823c-494d-85ac-d4e70b376722' onto work queue.
+[2020-06-16 12:01:36] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('37d585c52885fe1eb0d74e081dc9e4a1', 3) with id '9db84d7a-823c-494d-85ac-d4e70b376722'.
+[2020-06-16 12:01:36] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '9db84d7a-823c-494d-85ac-d4e70b376722'.
+[2020-06-16 12:01:47] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'c055e9ac-136f-45ad-9168-fe072ae2119c' onto work queue.
+[2020-06-16 12:01:47] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b109a3985c5accadd10bcc564dd765d5', 3) with id 'c055e9ac-136f-45ad-9168-fe072ae2119c'.
+[2020-06-16 12:01:48] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'c055e9ac-136f-45ad-9168-fe072ae2119c'.
+[2020-06-16 12:24:33] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '156e83f1-5501-4c43-9f61-f5f705448042' onto work queue.
+[2020-06-16 12:24:33] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('7d52d3f6ae67c1c8f5db49c921d30ee5', 4) with id '156e83f1-5501-4c43-9f61-f5f705448042'.
+[2020-06-16 12:24:33] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '156e83f1-5501-4c43-9f61-f5f705448042'.
+[2020-06-16 12:24:45] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '6b86c248-3d73-403a-9a69-d32ad592a89e' onto work queue.
+[2020-06-16 12:24:45] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b24cbdb0290cd6bad45783ced7323709', 4) with id '6b86c248-3d73-403a-9a69-d32ad592a89e'.
+[2020-06-16 12:24:46] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '6b86c248-3d73-403a-9a69-d32ad592a89e'.
+[2020-06-16 12:24:50] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '37ead0f9-3dee-4834-b106-a9a994a12b05' onto work queue.
+[2020-06-16 12:24:50] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('89ede99b76b232d3dc4dffd0adf3b2f0', 4) with id '37ead0f9-3dee-4834-b106-a9a994a12b05'.
+[2020-06-16 12:24:50] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '37ead0f9-3dee-4834-b106-a9a994a12b05'.
+[2020-06-16 12:24:58] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '063ecd84-05a1-4690-9a6d-decb90d31345' onto work queue.
+[2020-06-16 12:24:58] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('f48c8f71ad15fefa67419a7d9c982ba9', 4) with id '063ecd84-05a1-4690-9a6d-decb90d31345'.
+[2020-06-16 12:24:58] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '063ecd84-05a1-4690-9a6d-decb90d31345'.
+[2020-06-16 12:27:07] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'cc9cc0bf-a16c-4998-9ff6-40f5b2e6af80' onto work queue.
+[2020-06-16 12:27:07] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('49af41343f19b770d3ed76904f8c28c8', 4) with id 'cc9cc0bf-a16c-4998-9ff6-40f5b2e6af80'.
+[2020-06-16 12:27:07] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'cc9cc0bf-a16c-4998-9ff6-40f5b2e6af80'.
+[2020-06-16 12:27:17] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'f8a17612-d713-4e81-a09f-9b4e8de922aa' onto work queue.
+[2020-06-16 12:27:17] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('5c3f1168436589be10910b81a41aacce', 4) with id 'f8a17612-d713-4e81-a09f-9b4e8de922aa'.
+[2020-06-16 12:27:18] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'f8a17612-d713-4e81-a09f-9b4e8de922aa'.
+[2020-06-16 12:27:26] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'effa479f-775d-4a87-92fa-e55628a3e2fe' onto work queue.
+[2020-06-16 12:27:26] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('652332521241ad0a3b274cd6347e0a9e', 4) with id 'effa479f-775d-4a87-92fa-e55628a3e2fe'.
+[2020-06-16 12:27:27] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'effa479f-775d-4a87-92fa-e55628a3e2fe'.
+[2020-06-16 12:31:53] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '9150ffc3-1764-4760-98e5-ac9a96b8b569' onto work queue.
+[2020-06-16 12:31:53] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('25602d4ea01cf8a73d083749e9ac76ac', 4) with id '9150ffc3-1764-4760-98e5-ac9a96b8b569'.
+[2020-06-16 12:31:54] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '9150ffc3-1764-4760-98e5-ac9a96b8b569'.
+[2020-06-16 12:32:38] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'cae89c54-6544-43cc-9bee-c2bc9777464d' onto work queue.
+[2020-06-16 12:32:38] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('6f0b0fa7d7b6dc433ca6f44de4bf5e7e', 4) with id 'cae89c54-6544-43cc-9bee-c2bc9777464d'.
+[2020-06-16 12:32:38] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'cae89c54-6544-43cc-9bee-c2bc9777464d'.
+[2020-06-16 12:33:05] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'fccda18b-1eb9-4363-97dc-03a75b624815' onto work queue.
+[2020-06-16 12:33:05] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('2a872db844338f0186429f564864278c', 4) with id 'fccda18b-1eb9-4363-97dc-03a75b624815'.
+[2020-06-16 12:33:06] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'fccda18b-1eb9-4363-97dc-03a75b624815'.
+[2020-06-16 12:33:18] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'a729e38a-3fdb-4eba-8ca1-443447e1f129' onto work queue.
+[2020-06-16 12:33:18] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('48443cc3808fc40fcb1c17440d077a35', 4) with id 'a729e38a-3fdb-4eba-8ca1-443447e1f129'.
+[2020-06-16 12:33:18] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'a729e38a-3fdb-4eba-8ca1-443447e1f129'.
+[2020-06-16 12:36:30] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '627b2f7e-d1ba-42e4-9200-fe33172a4c11' onto work queue.
+[2020-06-16 12:36:30] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('4b7e6a01a2498478342cbd66fbd18b91', 4) with id '627b2f7e-d1ba-42e4-9200-fe33172a4c11'.
+[2020-06-16 12:36:30] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '627b2f7e-d1ba-42e4-9200-fe33172a4c11'.
+[2020-06-16 12:40:40] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '0e190ff7-1fd9-4741-9d71-018c3ec41a71' onto work queue.
+[2020-06-16 12:40:40] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('cb824b383b55ec150cc2f8c4b6bbe6a8', 4) with id '0e190ff7-1fd9-4741-9d71-018c3ec41a71'.
+[2020-06-16 12:40:41] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '0e190ff7-1fd9-4741-9d71-018c3ec41a71'.
+[2020-06-16 12:40:52] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '4e2c9f27-5adb-4023-91f1-4bbe04e61679' onto work queue.
+[2020-06-16 12:40:52] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b0dd03f0b155286ead4fbd6ce54c4416', 4) with id '4e2c9f27-5adb-4023-91f1-4bbe04e61679'.
+[2020-06-16 12:40:53] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '4e2c9f27-5adb-4023-91f1-4bbe04e61679'.
+[2020-06-16 12:41:07] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '7c24107d-359d-40e0-9313-efddd1d80f30' onto work queue.
+[2020-06-16 12:41:07] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('18042efe755a6a4cf59d1e84f7ab68ed', 4) with id '7c24107d-359d-40e0-9313-efddd1d80f30'.
+[2020-06-16 12:41:07] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '7c24107d-359d-40e0-9313-efddd1d80f30'.
+[2020-06-16 12:41:14] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '611b5fbb-4959-41a5-9d9e-eacfe686360b' onto work queue.
+[2020-06-16 12:41:14] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('cef884058548004a8098c4f7ef02888a', 4) with id '611b5fbb-4959-41a5-9d9e-eacfe686360b'.
+[2020-06-16 12:41:14] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '611b5fbb-4959-41a5-9d9e-eacfe686360b'.
+[2020-06-16 12:44:25] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '2ab85ab3-c939-40b2-bfcb-64daacedf5d7' onto work queue.
+[2020-06-16 12:44:25] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('56717d22135d4226aeef37ff1f00ab1b', 4) with id '2ab85ab3-c939-40b2-bfcb-64daacedf5d7'.
+[2020-06-16 12:44:25] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '2ab85ab3-c939-40b2-bfcb-64daacedf5d7'.
+[2020-06-16 12:47:20] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'a24d2674-86c2-4fc8-a096-082b79edd951' onto work queue.
+[2020-06-16 12:47:20] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('910ac310951b7c5eb2f7cb9034005ccc', 4) with id 'a24d2674-86c2-4fc8-a096-082b79edd951'.
+[2020-06-16 12:47:20] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'a24d2674-86c2-4fc8-a096-082b79edd951'.
+[2020-06-16 12:48:32] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'bc3f6cf9-d46d-461c-ba1d-8aeb25caeae8' onto work queue.
+[2020-06-16 12:48:32] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('cc6379c45c8655b0671eceec223b94b6', 4) with id 'bc3f6cf9-d46d-461c-ba1d-8aeb25caeae8'.
+[2020-06-16 12:48:33] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'bc3f6cf9-d46d-461c-ba1d-8aeb25caeae8'.
+[2020-06-16 12:49:37] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '2267f51a-eafe-40d6-a37f-9ffcc796a5fd' onto work queue.
+[2020-06-16 12:49:37] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('d494ade6c9f2884beaa60ae432b029cb', 4) with id '2267f51a-eafe-40d6-a37f-9ffcc796a5fd'.
+[2020-06-16 12:49:37] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '2267f51a-eafe-40d6-a37f-9ffcc796a5fd'.
+[2020-06-16 12:49:52] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '61435ca6-9e31-4754-9af6-d4c3a8191ae2' onto work queue.
+[2020-06-16 12:49:52] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('bb905afdc79aefa9f7ca73829bba58ad', 4) with id '61435ca6-9e31-4754-9af6-d4c3a8191ae2'.
+[2020-06-16 12:49:52] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '61435ca6-9e31-4754-9af6-d4c3a8191ae2'.
+[2020-06-16 12:50:45] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'a643703b-30c0-46f5-b350-c980f58dec35' onto work queue.
+[2020-06-16 12:50:45] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b504ccc7b7d0b73ddde8d81302b2e255', 4) with id 'a643703b-30c0-46f5-b350-c980f58dec35'.
+[2020-06-16 12:50:46] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'a643703b-30c0-46f5-b350-c980f58dec35'.
+[2020-06-16 12:51:59] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '94cd6aa6-5f55-4d30-8e66-c15347eb7246' onto work queue.
+[2020-06-16 12:51:59] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('dac11732bccb4054896f8d3eff5de34f', 4) with id '94cd6aa6-5f55-4d30-8e66-c15347eb7246'.
+[2020-06-16 12:51:59] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '94cd6aa6-5f55-4d30-8e66-c15347eb7246'.
+[2020-06-16 12:54:14] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '91c1e19b-67a3-465f-ba1e-613c6b716a7b' onto work queue.
+[2020-06-16 12:54:14] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('bc35ccfa471cc31158e013f64ff1ca46', 4) with id '91c1e19b-67a3-465f-ba1e-613c6b716a7b'.
+[2020-06-16 12:54:14] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '91c1e19b-67a3-465f-ba1e-613c6b716a7b'.
+[2020-06-16 12:54:34] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'bf1d6e47-f159-4efc-b0c4-273c926baf80' onto work queue.
+[2020-06-16 12:54:34] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('3046a00f78448b761cc8754751c37112', 1) with id 'bf1d6e47-f159-4efc-b0c4-273c926baf80'.
+[2020-06-16 12:54:35] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'bf1d6e47-f159-4efc-b0c4-273c926baf80'.
+[2020-06-16 12:54:55] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '8443f878-b96f-4996-b0fa-bcc153dbe78b' onto work queue.
+[2020-06-16 12:54:55] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('6ee90b49b30d5f245f98641701efa38b', 4) with id '8443f878-b96f-4996-b0fa-bcc153dbe78b'.
+[2020-06-16 12:54:55] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '8443f878-b96f-4996-b0fa-bcc153dbe78b'.
+[2020-06-16 12:55:03] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'f2225062-f60c-4c9c-9c7b-8bd53920f051' onto work queue.
+[2020-06-16 12:55:03] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('26d75f499cc6d01ff4c46a8eab34533c', 4) with id 'f2225062-f60c-4c9c-9c7b-8bd53920f051'.
+[2020-06-16 12:55:03] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'f2225062-f60c-4c9c-9c7b-8bd53920f051'.
+[2020-06-16 12:55:23] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'faf3d6ae-4d73-4b55-a526-22a45476ce5d' onto work queue.
+[2020-06-16 12:55:23] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('37763d6fa2d75d65d5831efd1567a49f', 1) with id 'faf3d6ae-4d73-4b55-a526-22a45476ce5d'.
+[2020-06-16 12:55:23] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'faf3d6ae-4d73-4b55-a526-22a45476ce5d'.
+[2020-06-16 12:55:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '21cf3e9d-1168-4d03-826e-7b941bbfb8bf' onto work queue.
+[2020-06-16 12:55:42] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('cc361f1b6a7d03eb41a3286cd489f122', 1) with id '21cf3e9d-1168-4d03-826e-7b941bbfb8bf'.
+[2020-06-16 12:55:42] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '21cf3e9d-1168-4d03-826e-7b941bbfb8bf'.
+[2020-06-16 12:57:25] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'eead67d6-b5d8-4988-b52e-d20ec3522b01' onto work queue.
+[2020-06-16 12:57:25] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('9d57ee7fe4d9c572d205c7b05a970a6d', 4) with id 'eead67d6-b5d8-4988-b52e-d20ec3522b01'.
+[2020-06-16 12:57:25] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'eead67d6-b5d8-4988-b52e-d20ec3522b01'.
+[2020-06-16 13:05:48] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'e1fca46e-adf8-4f1f-a01e-c9e08d5105fd' onto work queue.
+[2020-06-16 13:05:48] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('bbf991a85dfc4dfebc120be03530d83c', 4) with id 'e1fca46e-adf8-4f1f-a01e-c9e08d5105fd'.
+[2020-06-16 13:05:48] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'e1fca46e-adf8-4f1f-a01e-c9e08d5105fd'.
+[2020-06-16 13:05:53] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '2326058e-36ea-4eac-a07c-4cdd7e7b0503' onto work queue.
+[2020-06-16 13:05:53] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('778048486860e978f7bacb4370cb63d6', 4) with id '2326058e-36ea-4eac-a07c-4cdd7e7b0503'.
+[2020-06-16 13:05:53] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '2326058e-36ea-4eac-a07c-4cdd7e7b0503'.
+[2020-06-16 13:09:50] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '2fa63ebf-9af4-422d-85ca-b0b2872b12d9' onto work queue.
+[2020-06-16 13:09:50] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('355e9b0c220a1beeef821f6f6d60cd78', 2) with id '2fa63ebf-9af4-422d-85ca-b0b2872b12d9'.
+[2020-06-16 13:09:50] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '2fa63ebf-9af4-422d-85ca-b0b2872b12d9'.
+[2020-06-16 13:10:35] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '818ac430-3051-49a7-b388-1f87da4af819' onto work queue.
+[2020-06-16 13:10:35] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('c0e84677147b9fd472f8ec10a61124d6', 2) with id '818ac430-3051-49a7-b388-1f87da4af819'.
+[2020-06-16 13:10:36] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '818ac430-3051-49a7-b388-1f87da4af819'.
+[2020-06-16 13:10:37] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '8cd9eb30-3787-4a23-b9ff-bbc0f2ce854b' onto work queue.
+[2020-06-16 13:10:37] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('3cdb09c95caf18208f11904c57663007', 3) with id '8cd9eb30-3787-4a23-b9ff-bbc0f2ce854b'.
+[2020-06-16 13:10:37] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '8cd9eb30-3787-4a23-b9ff-bbc0f2ce854b'.
+[2020-06-16 13:11:05] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '739fed4c-101e-4e80-a68d-9cd6871959f7' onto work queue.
+[2020-06-16 13:11:05] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('7d94ccba79717c5656cb0057cc0e1ba6', 4) with id '739fed4c-101e-4e80-a68d-9cd6871959f7'.
+[2020-06-16 13:11:06] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '739fed4c-101e-4e80-a68d-9cd6871959f7'.
+[2020-06-16 13:11:21] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '70dd5ab6-89d2-424c-af41-4df7411684ff' onto work queue.
+[2020-06-16 13:11:21] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('ea6021c6f7cfd2cea30f57cc0b71d437', 2) with id '70dd5ab6-89d2-424c-af41-4df7411684ff'.
+[2020-06-16 13:11:21] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '70dd5ab6-89d2-424c-af41-4df7411684ff'.
+[2020-06-16 13:11:54] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'e1405dee-f11b-4414-b59f-7aa04d5181ca' onto work queue.
+[2020-06-16 13:11:54] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('360546dd24599317ff349d05b3be18d6', 2) with id 'e1405dee-f11b-4414-b59f-7aa04d5181ca'.
+[2020-06-16 13:11:54] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'e1405dee-f11b-4414-b59f-7aa04d5181ca'.
+[2020-06-16 13:18:00] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'f104e418-72e8-49ab-a116-3ca4850412c7' onto work queue.
+[2020-06-16 13:18:00] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('47a2f157b305da08a462a7c650deec2d', 4) with id 'f104e418-72e8-49ab-a116-3ca4850412c7'.
+[2020-06-16 13:18:00] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'f104e418-72e8-49ab-a116-3ca4850412c7'.
+[2020-06-16 13:18:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '52654cf4-c2d3-4b9c-992d-86e4db68e31c' onto work queue.
+[2020-06-16 13:18:31] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('c2876fe3b3b2bbd4a1f9803318b7d693', 1) with id '52654cf4-c2d3-4b9c-992d-86e4db68e31c'.
+[2020-06-16 13:18:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '52654cf4-c2d3-4b9c-992d-86e4db68e31c'.
+[2020-06-16 13:19:20] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '693690dd-ad8c-4e3a-a479-2b93eabd9576' onto work queue.
+[2020-06-16 13:19:20] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('b15ec07bb725685a387271f423304865', 4) with id '693690dd-ad8c-4e3a-a479-2b93eabd9576'.
+[2020-06-16 13:19:20] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '693690dd-ad8c-4e3a-a479-2b93eabd9576'.
+[2020-06-16 13:20:08] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '57af948d-ae6d-4d3e-b638-00e6cdd39735' onto work queue.
+[2020-06-16 13:20:08] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('828e196fa27b227b911ba22d5ea595dc', 4) with id '57af948d-ae6d-4d3e-b638-00e6cdd39735'.
+[2020-06-16 13:20:09] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '57af948d-ae6d-4d3e-b638-00e6cdd39735'.
+[2020-06-16 13:22:09] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'e75ae2cd-3e6f-480c-b494-0c2cfc77339a' onto work queue.
+[2020-06-16 13:22:09] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('3490bd5b96a16c6d66d57f3398d65455', 4) with id 'e75ae2cd-3e6f-480c-b494-0c2cfc77339a'.
+[2020-06-16 13:22:09] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'e75ae2cd-3e6f-480c-b494-0c2cfc77339a'.
+[2020-06-16 17:50:55] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message 'cd6a0628-c8d3-4c03-bb10-182e0b0bcdef' onto work queue.
+[2020-06-16 17:50:55] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('45f936d3020fd064a2292e2e7b909e12', 1) with id 'cd6a0628-c8d3-4c03-bb10-182e0b0bcdef'.
+[2020-06-16 17:50:55] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message 'cd6a0628-c8d3-4c03-bb10-182e0b0bcdef'.
+[2020-06-16 17:51:10] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '475ab69a-c65f-4aea-a182-bc5bc0139482' onto work queue.
+[2020-06-16 17:51:10] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('1bf9a9ca1a1d64bbca343a4a7e8d14af', 1) with id '475ab69a-c65f-4aea-a182-bc5bc0139482'.
+[2020-06-16 17:51:10] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '475ab69a-c65f-4aea-a182-bc5bc0139482'.
+[2020-06-16 17:52:14] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '625d3aa4-a234-40de-994f-905e2d2421f2' onto work queue.
+[2020-06-16 17:52:14] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('2c38be4aa323d5749db7ceafeae4f171', 1) with id '625d3aa4-a234-40de-994f-905e2d2421f2'.
+[2020-06-16 17:52:14] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '625d3aa4-a234-40de-994f-905e2d2421f2'.
+[2020-06-16 17:52:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '9c194d62-bb31-4be3-ba84-07116f034ac0' onto work queue.
+[2020-06-16 17:52:31] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('f9f77935074a8d33d5d1388476f1ac13', 1) with id '9c194d62-bb31-4be3-ba84-07116f034ac0'.
+[2020-06-16 17:52:31] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '9c194d62-bb31-4be3-ba84-07116f034ac0'.
+[2020-06-16 17:52:41] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):287]  - Pushing message '4d0822cf-79b0-432d-b019-0d7908159ce6' onto work queue.
+[2020-06-16 17:52:41] - [DEBUG] - [dramatiq.worker.WorkerThread:391]  - Received message judge_task('48e23b5e3fcd4eb4fa9087b73cc8d6f7', 1) with id '4d0822cf-79b0-432d-b019-0d7908159ce6'.
+[2020-06-16 17:52:41] - [DEBUG] - [dramatiq.worker.ConsumerThread(default):309]  - Acknowledging message '4d0822cf-79b0-432d-b019-0d7908159ce6'.

@@ -1,0 +1,11 @@
+[2020-06-14 17:10:34 +0000] [8] [INFO] Starting gunicorn 19.9.0
+[2020-06-14 17:10:34 +0000] [8] [INFO] Listening at: http://0.0.0.0:8080 (8)
+[2020-06-14 17:10:34 +0000] [8] [INFO] Using worker: threads
+[2020-06-14 17:10:34 +0000] [18] [INFO] Booting worker with pid: 18
+[2020-06-14 17:10:34 +0000] [19] [INFO] Booting worker with pid: 19
+[2020-06-14 17:10:35 +0000] [22] [INFO] Booting worker with pid: 22
+[2020-06-14 17:10:35 +0000] [24] [INFO] Booting worker with pid: 24
+[2020-06-14 17:10:35 +0000] [26] [INFO] Booting worker with pid: 26
+[2020-06-14 17:10:35 +0000] [28] [INFO] Booting worker with pid: 28
+[2020-06-14 17:10:35 +0000] [30] [INFO] Booting worker with pid: 30
+[2020-06-14 17:10:35 +0000] [31] [INFO] Booting worker with pid: 31

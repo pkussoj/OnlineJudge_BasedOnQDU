@@ -1,0 +1,10 @@
+2020-06-14 17:10:40,909 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-06-14 17:10:40,916 INFO RPC interface 'supervisor' initialized
+2020-06-14 17:10:40,916 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2020-06-14 17:10:40,917 INFO supervisord started with pid 1
+2020-06-14 17:10:41,919 INFO spawned: 'dramatiq' with pid 121
+2020-06-14 17:10:41,920 INFO spawned: 'gunicorn' with pid 122
+2020-06-14 17:10:41,921 INFO spawned: 'nginx' with pid 123
+2020-06-14 17:10:47,547 INFO success: dramatiq entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2020-06-14 17:10:47,547 INFO success: gunicorn entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
+2020-06-14 17:10:47,547 INFO success: nginx entered RUNNING state, process has stayed up for > than 5 seconds (startsecs)
