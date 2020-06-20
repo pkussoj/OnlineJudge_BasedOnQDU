@@ -52,15 +52,18 @@
     <Col :span="5">
     <Panel :padding="10">
       <div slot="title" class="taglist-title">{{$t('m.Tags')}}</div>
-      <Button v-for="tag in tagList"
-              :key="tag.name"
-              @click="filterByTag(tag.name)"
-              type="ghost"
-              :disabled="query.tag === tag.name"
-              shape="circle"
-              class="tag-btn">{{tag.name}}
-      </Button>
-
+      <div class="tiptool">
+      <Tooltip v-for="tag in tagList" :key="tag.name"  placement="top" class="tool-tag" :disabled="tag.name.length <= 20">
+        <Button 
+                @click="filterByTag(tag.name)"
+                type="ghost"
+                :disabled="query.tag === tag.name"
+                shape="circle"
+                class="tag-btn">{{tag.name}} 
+        </Button>
+        <div slot="content" style=" white-space: normal;">{{tag.name}}</div>
+      </Tooltip>
+      </div>
       <Button long id="pick-one" @click="pickone">
         <Icon type="shuffle"></Icon>
         {{$t('m.Pick_One')}}
@@ -293,6 +296,17 @@
   .tag-btn {
     margin-right: 5px;
     margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+  }
+
+  .tool-tag{
+    max-width: 100%;
+  }
+
+  .tool-tag :first-child{
+    max-width: 100%;
   }
 
   #pick-one {
