@@ -91,6 +91,7 @@
                 v-if="inputVisible"
                 size="mini"
                 class="input-new-tag"
+                style="width:200px"
                 v-model="tagInput"
                 :trigger-on-focus="false"
                 @keyup.enter.native="addTag"
